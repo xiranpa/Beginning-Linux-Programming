@@ -1,7 +1,7 @@
 #include <unistd.h>
 #include <stdlib.h>
 
-int main()
+int mian()
 {
 	int buffer[128];
 	int nread;
