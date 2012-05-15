@@ -20,13 +20,10 @@
 	"buffers":
 	[
 		{
-			"contents": "#include <unistd.h>\n#include <sys/stat.h>\n#include <fcntl.h>\n#include <stdlib.h>\n\nint main()\n{\n	char c;\n	int in, out;\n\n	in = open(\"file.in\", O_RDONLY);\n	out = open(\"file.out\", O_WRONLY | O_CREAT, S_IRUSR | S_IWUSR);\n	while(read(in, &c, 1) == 1)\n		write(out, &c, 1);\n\n	exit(0);\n}",
 			"file": "ch3/copy_system.c",
-			"file_size": 294,
-			"file_write_time": 129815258720486776,
 			"settings":
 			{
-				"buffer_size": 278,
+				"buffer_size": 279,
 				"line_ending": "Windows"
 			}
 		}
@@ -34,15 +31,19 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 61.0,
+		"height": 161.0,
 		"selected_items":
 		[
 			[
-				"install",
-				"Package Control: Install Package"
+				"user",
+				"Preferences: Settings - User"
 			],
 			[
 				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
 				"Package Control: Install Package"
 			],
 			[
@@ -123,11 +124,13 @@
 	},
 	"file_history":
 	[
+		"/D/Program Files/Sublime Text 2/Data/Packages/User/Preferences.sublime-settings",
+		"/D/Users/Arthur/SkyDrive/Documents/Work_AEC.txt",
 		"/D/Users/Arthur/SkyDrive/Documents/为什么要这样做.txt",
+		"/D/Users/Arthur/SkyDrive/Documents/ADSL & PW.txt",
 		"/D/Users/Arthur/SkyDrive/Resource Hacker/下载安装说明.txt",
 		"/D/Development/Beginning-Linux-Programming/Begining-Linux-Programming.sublime-project",
 		"/D/Development/Beginning-Linux-Programming/ch3/copy_system.c",
-		"/D/Program Files/Sublime Text 2/Data/Packages/User/Preferences.sublime-settings",
 		"/D/Program Files/Sublime Text 2/Data/Packages/User/Default (Windows).sublime-keymap",
 		"/D/Development/Beginning-Linux-Programming/ch3/simple_write.c",
 		"/D/Development/Beginning-Linux-Programming/ch3/simple_read.c",
@@ -156,6 +159,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			" (",
 			">"
 		],
 		"highlight": true,
@@ -182,19 +186,22 @@
 					"file": "ch3/copy_system.c",
 					"settings":
 					{
-						"buffer_size": 278,
+						"buffer_size": 279,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								276,
-								276
+								117,
+								117
 							]
 						],
 						"settings":
 						{
+							"encoding_helper_confidence": 1.0,
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_helper_encoding_sublime": "UTF-8",
 							"syntax": "Packages/C++/C.tmLanguage"
 						},
 						"translation.x": 0.0,
