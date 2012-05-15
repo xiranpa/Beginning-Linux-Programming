@@ -1,0 +1,271 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"out",
+				"output_col"
+			],
+			[
+				"ma",
+				"MAX_INPUT"
+			],
+			[
+				"MA",
+				"MAX_INPUT"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "#include <unistd.h>\n#include <sys/stat.h>\n#include <fcntl.h>\n#include <stdlib.h>\n\nint main()\n{\n	char c;\n	int in, out;\n\n	in = open(\"file.in\", O_RDONLY);\n	out = open(\"file.out\", O_WRONLY | O_CREAT, S_IRUSR | S_IWUSR);\n	while(read(in, &c, 1) == 1)\n		write(out, &c, 1);\n\n	exit(0);\n}",
+			"file": "ch3/copy_system.c",
+			"file_size": 294,
+			"file_write_time": 129815258720486776,
+			"settings":
+			{
+				"buffer_size": 278,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 61.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Typedef"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control:list",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Create Binary Package File"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"github",
+				"Git: Push Current Branch"
+			],
+			[
+				"git",
+				"Git: Add..."
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"package cont",
+				"Package Control: Install Package"
+			],
+			[
+				"set",
+				"Set Syntax: C"
+			]
+		],
+		"width": 386.0
+	},
+	"console":
+	{
+		"height": 153.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Users/Arthur/SkyDrive/Documents/为什么要这样做.txt",
+		"/D/Users/Arthur/SkyDrive/Resource Hacker/下载安装说明.txt",
+		"/D/Development/Beginning-Linux-Programming/Begining-Linux-Programming.sublime-project",
+		"/D/Development/Beginning-Linux-Programming/ch3/copy_system.c",
+		"/D/Program Files/Sublime Text 2/Data/Packages/User/Preferences.sublime-settings",
+		"/D/Program Files/Sublime Text 2/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/D/Development/Beginning-Linux-Programming/ch3/simple_write.c",
+		"/D/Development/Beginning-Linux-Programming/ch3/simple_read.c",
+		"/D/Development/Beginning-Linux-Programming/Beginning-Linux-Programming.sublime-project",
+		"/D/Development/Beginning-Linux-Programming/Beginning-Linux-Programming.sublime-workspace",
+		"/D/Program Files/Sublime Text 2/Data/Packages/Package Control/Package Control.sublime-settings",
+		"/D/Development/Pointers-on-C/ch1/rearrang.c",
+		"/D/Users/Arthur/Downloads/main.c",
+		"/D/Development/Pointers on C/ch1/rearrang.c",
+		"/D/Program Files/Sublime Text 2/Data/Packages/Default/Preferences.sublime-settings",
+		"/D/Program Files/Sublime Text 2/Data/Packages/Default/Default (Windows).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			">"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "ch3/copy_system.c",
+					"settings":
+					{
+						"buffer_size": 278,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								276,
+								276
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/D/Development/Pointers-on-C/ch1/rearrang.c"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
